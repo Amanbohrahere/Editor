@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Video Editor Portfolio</title>
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="ani.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            
+            <div class="profile-wrapper">
+                <img src="Profile.jpg" alt="Profile Picture" class="profile-pic" id="profile-pic">
+            </div>
+            <h1 class="fade-in">Hello, I'm Aman Bohra</h1>
+            <p class="fade-in">A Professional Video Editor</p>
+            <section class="intro-video hidden">
+                <h2>Watch My Showreel</h2>
+                <video controls autoplay playsinline class="showreel-video">
+                    <source src="Main.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section>
+
+                <br>
+                <a href="Portfolio.html" class="btn scale-in">View by Genre</a>
+
+            
+            </section>
+            
+        </header>
+        <footer class="footer">
+            <a href="https://www.instagram.com/amanbohrahere/" target="_blank" class="social-link">Insta</a>
+            <a href="www.linkedin.com/in/amanbohrahere/" target="_blank" class="social-link">Linkdin</a>
+            <a href="https://wa.me/8439027227" class="social-link" target="_blank">Whatsapp</a>
+
+            <a href="tel:+918439027227" class="social-link">Call Me</a>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="profile-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="jss.js"></script>
+</body>
+</html>
