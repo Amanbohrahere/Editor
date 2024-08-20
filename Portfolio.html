@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Video Editor Portfolio</title>
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="ani.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+           
+        
+           
+            <h1 class="fade-in">Explore by Genre</h1>
+        <section class="portfolio-section">
+            <div class="genre scale-in" onclick="loadVideos('Shorts')">Shorts</div>
+            <div class="genre scale-in" onclick="loadVideos('action')">Gaming</div>
+            <div class="genre scale-in" onclick="loadVideos('Vlogs')">Vlogs</div>
+            <div class="genre scale-in" onclick="loadVideos('documentary')">Podcast</div>
+            
+        </section>
+        <section class="video-gallery" id="video-gallery"></section>
+        <a href="index.html" class="btn scale-in">Back to Home</a>
+        </header>
+    </div>
+    
+    <script src="Portfolio.js"></script>
+</body>
+</html>
